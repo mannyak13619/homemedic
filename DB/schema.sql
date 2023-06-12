@@ -1,20 +1,15 @@
--- Drops the sample_db if it exists currently --
-DROP DATABASE IF EXISTS sample_db;
--- Creates the sample_db database --
-CREATE DATABASE sample_db;
+DROP DATABASE IF EXISTS home_medic;
+CREATE DATABASE home_medic;
 
--- Drops the sample_db --
-DROP DATABASE IF EXISTS sample_db;
-
-
-CREATE DATABASE sample_db;
--- Uses the books_db database --
-USE sample_db;
-
--- Creates the table "biographies" within books_db --
+CREATE TABLE tradesmen(
+  id INT NOT NULL,
+  name VARCHAR(100) NOT NULL
+);
 CREATE TABLE what_hurts(
-  -- Creates a numeric column called "id" which will automatically increment its default value as we create new rows --
-  id INT,
-  -- Makes a string column called "name" which cannot contain null --
-  name VARCHAR(100)
+  id INT NOT NULL,
+  name VARCHAR(100) NOT NULL
+);
+CREATE TABLE sign up(
+  id INT NOT NULL,
+  name VARCHAR(100) NOT NULL
 );
