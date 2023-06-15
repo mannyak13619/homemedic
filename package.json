@@ -1,0 +1,32 @@
+{
+  "name": "homemedic",
+  "version": "1.0.0",
+  "description": "app to help you find a skilled tradesman near you to help with any home emergencies,  image obtained threw https://www.flaticon.com/free-icons/doctors-stethoscope",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannyak13619/homemedic.git"
+  },
+  "author": "manny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannyak13619/homemedic/issues"
+  },
+  "homepage": "https://github.com/mannyak13619/homemedic#readme",
+  "dependencies": { 
+    "bcrypt" :"^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+
+    
+  }
+
